@@ -1,7 +1,9 @@
 # Fiji scripts for processing Zeiss lightsheet Z.1/7 datasets using BigStitcher/ Multiview Reconstruction
 
 These scripts are meant for automatic and easy "happy go lucky" processing of Zeiss Lightsheet datasets using the amazing [BigStitcher](https://imagej.net/BigStitcher) and [MultiView Reconstruction](https://imagej.net/Multiview-Reconstruction) in Fiji.
-The goal is to provide a simple, approachable user interface to reduce the barrier of using the Lightsheet system for everyday users, for example in a facility environment. 
+
+The goal is to provide a simple user interface to reduce the barrier of using the Lightsheet system for everyday users, for example in a facility environment. 
+The scripts set default parameters that worked for several different usecases.
 
 ## Requirements
 - BigStitcher >= 0.8.1
@@ -18,6 +20,9 @@ If you would like to use the mailing function,
 ## zeiss-lightsheet-bigstitcher
 For stitching tiled datasets
 
+<img src="zeiss-lightsheet-bigstitcher.png" width="50%" height="50%">
+
 ## zeiss-lightsheet-multiview-reconstruction.py
 For reconstructing MultiView (=multi-angle) datasets
 
+<img src="zeiss-lightsheet-multiview-reconstruction.png" width="50%" height="50%">
