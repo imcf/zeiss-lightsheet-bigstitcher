@@ -19,6 +19,9 @@ If you would like to use the mailing function,
 
 ## zeiss-lightsheet-bigstitcher
 For stitching tiled datasets
+Please note: 
+- tiles acquired on the Zeiss LS 7 using the build-in tiling function in Zen [can currently NOT be read properly by BigStitcher](https://forum.image.sc/t/change-in-czi-tile-info-metadata-after-upgrade-to-zeiss-lightsheet-7/49414)
+- alternatively, use the Zen black tiling-macro that was formerly used in the LS Z.1
 
 <img src="zeiss-lightsheet-bigstitcher.png" width="50%" height="50%">
 
