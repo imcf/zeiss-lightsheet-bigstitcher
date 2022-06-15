@@ -6,12 +6,11 @@ The goal is to provide a simple user interface to reduce the barrier of using th
 The scripts set default parameters that worked for several different usecases.
 
 ## Requirements
-- BigStitcher >= 0.8.1
-- Multiview Reconstruction >= 10.2
+forked multiview-reconstruction-0.11.4-SNAPSHOT.jar which includes a Zeiss Lightsheet 7 reader (orops to @lguerard)
+https://github.com/imcf/multiview-reconstruction/releases/tag/0.11.4
 
 If you would like to use the "convert to Imaris" function, 
-- Imaris FileConverter (Windows)
-- kindly ask @ImageJan for his permission to use his convert-to-ims Fiji plugin
+- Imaris (Windows)
 
 If you would like to use the mailing function,
 - please change the smtp server settings according to your institute
@@ -20,13 +19,5 @@ If you would like to use the mailing function,
 ## zeiss-lightsheet-bigstitcher
 For stitching tiled datasets.
 
-Please note: 
-- tiles acquired on the Zeiss LS 7 using the build-in tiling function in Zen [can currently NOT be read properly by BigStitcher](https://forum.image.sc/t/change-in-czi-tile-info-metadata-after-upgrade-to-zeiss-lightsheet-7/49414)
-- alternatively, use the Zen black tiling-macro that was formerly used in the LS Z.1
-
-<img src="zeiss-lightsheet-bigstitcher.png" width="50%" height="50%">
-
 ## zeiss-lightsheet-multiview-reconstruction.py
 For reconstructing MultiView (=multi-angle) datasets
-
-<img src="zeiss-lightsheet-multiview-reconstruction.png" width="50%" height="50%">
