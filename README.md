@@ -6,7 +6,7 @@ The goal is to provide a simple user interface to reduce the barrier of using th
 The scripts set default parameters that worked for several different usecases.
 
 ## Requirements
-forked multiview-reconstruction-0.11.4-SNAPSHOT.jar which includes a Zeiss Lightsheet 7 reader (orops to @lguerard)
+forked multiview-reconstruction-0.11.4-SNAPSHOT.jar which includes a Zeiss Lightsheet 7 reader (props to @lguerard)
 https://github.com/imcf/multiview-reconstruction/releases/tag/0.11.4
 
 If you would like to use the "convert to Imaris" function, 
